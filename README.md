@@ -34,7 +34,7 @@ const themes = [
   {
     ...Theme1,
     id: 'Theme1', // ⚠️ Your themes are expected to contain this property
-    name: 'Theme 1 (Light)', // Optionally display a nicer in the Storybook UI
+    name: 'Theme 1 (Light)', // Optionally display a nicer text in the Storybook UI
   },
   {
     ...Theme2,
