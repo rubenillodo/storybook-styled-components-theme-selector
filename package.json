@@ -3,9 +3,21 @@
   "version": "0.0.0-development",
   "author": "Rubén Illodo Brea <me@rubenillodo.com>",
   "license": "MIT",
-  "module": "dist/storybook-styled-components-theme-selector.esm.js",
   "main": "dist/index.js",
+  "module": "dist/storybook-styled-components-theme-selector.esm.js",
   "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenillodo/storybook-styled-components-theme-selector.git"
+  },
+  "keywords": [
+    "react",
+    "storybook",
+    "styled-components"
+  ],
+  "bugs": {
+    "url": "https://github.com/rubenillodo/storybook-styled-components-theme-selector/issues"
+  },
   "files": [
     "dist",
     "src",

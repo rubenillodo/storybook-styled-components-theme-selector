@@ -19,7 +19,7 @@ export const Tool = () => {
           links={themes.map((it) => ({
             id: it.id,
             loading: false,
-            title: it.name,
+            title: it.name ?? it.id,
             disabled: it.id === currentThemeId,
             onClick: () => {
               changeTheme({ themeId: it.id });
