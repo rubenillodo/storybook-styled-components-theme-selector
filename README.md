@@ -1,4 +1,4 @@
-<p align="center"><img src="./docs/demo.gif" height="200" /></p>
+<p align="center"><img src="https://media.giphy.com/media/YSHfWZhFeT4gzKxe4A/source.gif" height="200" /></p>
 
 This is a Storybook addon that allows you to switch between multiple themes via the Storybook UI or
 a query parameter in the URL.
@@ -53,7 +53,7 @@ addDecorator(
 
 ## Set the theme using the URL
 
-<p align="center"><img src="./docs/demo-iframe.gif" height="200" /></p>
+<p align="center"><img src="https://media.giphy.com/media/ehPO9QU1kPYcDNBmLx/source.gif" height="200" /></p>
 
 You may attach a `themeId` query parameter to the Storybook URL to set the theme for your story.
 
