@@ -1,24 +1,32 @@
 {
   "name": "example",
-  "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0-development",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
-  },
-  "dependencies": {
-    "react-app-polyfill": "^1.0.0"
+    "start": "start-storybook -p 6006"
   },
   "alias": {
     "react": "../node_modules/react",
     "react-dom": "../node_modules/react-dom/profiling",
-    "scheduler/tracing": "../node_modules/scheduler/tracing-profiling"
+    "scheduler/tracing": "../node_modules/scheduler/tracing-profiling",
+    "storybook-styled-components-theme-selector": ".."
   },
   "devDependencies": {
-    "@types/react": "^16.9.11",
-    "@types/react-dom": "^16.8.4",
-    "parcel": "^1.12.3",
-    "typescript": "^3.4.5"
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-docs": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/addons": "^6.0.26",
+    "@storybook/react": "^6.0.26",
+    "@types/react": "16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-table": "^7.0.19",
+    "@types/styled-components": "^5.1.1",
+    "babel-loader": "^8.1.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "storybook-styled-components-theme-selector": "^1.0.0",
+    "styled-components": "^5.1.1",
+    "typescript": "^4.0.3"
   }
 }
